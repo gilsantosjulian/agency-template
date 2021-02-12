@@ -1,0 +1,11 @@
+.footerOrAside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $primary;
+  height: 10%;
+
+  & > .image {
+    width: 50px;
+  }
+}

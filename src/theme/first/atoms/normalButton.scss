@@ -1,0 +1,10 @@
+.normalButton {
+  background-color: $accent1;
+  border-width: $borderWidth;
+  border-radius: $borderRadius;
+  cursor: pointer;
+  font-weight: bold;
+  color: $light1;
+  padding: $padding / 2.3;
+  @include truncateText;
+}

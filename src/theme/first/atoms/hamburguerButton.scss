@@ -1,0 +1,35 @@
+.hamburguerButton {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: $accent1;
+  border-radius: $borderRadius;
+  z-index: 1;
+  display: none;
+  padding: $padding / 2;
+  position: relative;
+}
+
+.hamburguerButton > .line {
+  transition: all 0.3s ease-in-out;
+  width: 25px;
+  height: 3px;
+  display: block;
+  background: $light1;
+}
+
+.hamburguerButton > .line:nth-child(2), .line:nth-child(3) {
+  margin-top: 2px;
+}
+
+.hamburguerButton.pressed > .line:nth-child(1) {
+  transform: translateY(5px) rotate(45deg);
+}
+
+.hamburguerButton.pressed > .line:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburguerButton.pressed > .line:nth-child(3) {
+  transform: translateY(-5px) rotate(-45deg);
+}

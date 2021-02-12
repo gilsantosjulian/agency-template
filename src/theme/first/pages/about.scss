@@ -1,0 +1,65 @@
+.about {
+  padding: $padding;
+  padding-top: $padding * 2;
+}
+
+.about > .body {
+  display: flex;
+  flex-direction: column;
+}
+
+.about > .body > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: $padding * 2;
+  font-size: 30px;
+}
+
+.about > .header {
+  transform: translate(-100%);
+}
+
+.about.animation > .header {
+  transform: translate(0);
+  transition: transform 0.6s ease;
+}
+
+.about > .body > .paragraph {
+  transform: scale(0);
+}
+
+.about.animation > .body > .paragraph {
+  transform: scale(1);
+  transition: transform 0.6s ease;
+}
+
+.about > .body > .iconsContainer > .icon {
+  transform: scale(0);
+}
+
+.about.animation > .body > .iconsContainer > .icon {
+  transform: scale(1);
+  animation-name: appear;
+  animation-duration: 0.6s;
+  animation-iteration-count: initial;
+  animation-timing-function: ease-in;
+}
+
+@keyframes appear {
+  0% {
+    transform: scale(0);
+  }
+  25% {
+    transform: scale(2);
+  }
+  50% {
+    transform: scale(0.5);
+  }
+  75% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,26 @@
+.toolbar {
+  padding: $padding;
+  background-color: $primary;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  height: 10%;
+  top: 0;
+}
+
+.toolbar > .left {
+  width: 50%;
+}
+
+.toolbar > .left > .superTitle {
+  margin: 0;
+  color: $light1;
+}
+
+.toolbar > .right {
+  width: 50%;
+}

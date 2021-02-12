@@ -1,0 +1,10 @@
+.notFound {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.notFound > .gatsby-image-wrapper {
+  width: 25%;
+}

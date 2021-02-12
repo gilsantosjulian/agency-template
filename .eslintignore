@@ -1,0 +1,6 @@
+/.git
+/.vscode
+node_modules
+/config
+/scripts
+*.scss.d.ts

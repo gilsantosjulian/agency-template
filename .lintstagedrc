@@ -1,0 +1,7 @@
+{
+  "src/**/*.{js,jsx}": [
+    "npm run prettier:lintstaged",
+    "npm run lint:lintstaged",
+    "git add"
+  ]
+}

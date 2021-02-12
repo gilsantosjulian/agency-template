@@ -1,0 +1,14 @@
+.anchor {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: $accent2;
+  cursor: pointer;
+  @include truncateText;
+  &:hover {
+    color: $accent1;
+  }
+  &.selected {
+    color: $light1;
+  }
+}

@@ -1,0 +1,25 @@
+// Customizable
+@import '../../assets/theme/colors.scss';
+@import '../../assets/theme/border.scss';
+@import '../../assets/theme/spacing.scss';
+@import '../../assets/theme/breakpoints.scss';
+// Others
+@import './first/extras.scss';
+@import './first/mixins.scss';
+// Atomic design
+@import './first/atoms/normalButton.scss';
+@import './first/atoms/languageSelector.scss';
+@import './first/atoms/hamburguerButton.scss';
+@import './first/atoms/anchor.scss';
+
+@import './first/molecules/menu.scss';
+
+@import './first/organisms/toolbar.scss';
+@import './first/organisms/footerOrAside.scss';
+
+@import './first/pages/home.scss';
+@import './first/pages/about.scss';
+
+@import './first/layouts/headerAndBody.scss';
+
+@import './first/pages/404.scss';
