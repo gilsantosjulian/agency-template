@@ -19,7 +19,7 @@ const Toolbar = (
 
   return (
     <div
-      className='toolbar'
+      className='container mx-auto bg-black'
     >
       <div
         className='left'
